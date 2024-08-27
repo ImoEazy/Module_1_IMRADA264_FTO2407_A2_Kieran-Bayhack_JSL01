@@ -1,5 +1,6 @@
 function validateSyntax() {
-    let input = document.getElementById('petInput').value;
+    let Regex = //needs variable for Regex//
+    let input = document.getElementById('petInput').value;//variable is created to store the user input//
     // Validation logic goes here
     let result = ''; // Placeholder for validation result
 
