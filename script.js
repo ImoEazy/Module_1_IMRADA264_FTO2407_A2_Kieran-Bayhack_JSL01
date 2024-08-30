@@ -1,8 +1,10 @@
 function validateSyntax() {
-    let RegEx = /^pet_{A-Za-z0-9}+$/i; //needs variable for Regex, no numeric values//
+    
     let input = document.getElementById('petInput').value; //variable is created to store the user input//
     // Validation logic goes here
+    let RegEx = /^pet_[A-Z 0-9]+$/i; //needs variable for Regex, no numeric values//
     let result = ''; // Placeholder for validation result
+    
 
     // TODO: Write your validation logic here
         // Check if input starts with 'pet_' and followed by alphanumeric characters
