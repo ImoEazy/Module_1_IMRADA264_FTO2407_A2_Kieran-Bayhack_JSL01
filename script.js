@@ -1,5 +1,5 @@
 function validateSyntax() {
-    let RegEx = /^pet_{A-Za-z0-9}=$/; //needs variable for Regex, no numeric values//
+    let RegEx = /^pet_{A-Za-z0-9}+$/i; //needs variable for Regex, no numeric values//
     let input = document.getElementById('petInput').value; //variable is created to store the user input//
     // Validation logic goes here
     let result = ''; // Placeholder for validation result
