@@ -10,12 +10,12 @@ function validateSyntax() {
         // Check if input starts with 'pet_' and followed by alphanumeric characters
         //else staement, if input correct then valid else if input inncorrect then invalid
 
-        if (RegEx.test(input)) {
-            result = "Correct Syntax"
+        if (RegEx.test(input)) {// if regular expression matches then correct
+            result = "Correct Syntax input"
 
         }
-        else {
-            result = "Inncorrect Syntax"
+        else {// else result in inncorrect syntax if regular expression does not match
+            result = "Inncorrect Syntax input"
 
         }
 
